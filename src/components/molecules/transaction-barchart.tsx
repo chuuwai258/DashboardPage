@@ -31,7 +31,7 @@ const chartConfig = {
 } satisfies ChartConfig
 export default function ChartBarDefault() {
   return (
-    <Card className="relative h-60 md:w-[60%] lg:w-full md:h-63 lg:h-65">
+    <Card className="relative h-60 md:w-[60%] lg:w-[95%] md:h-63 lg:h-65">
       <h3 className="absolute top-9 right-14 lg:top-10 lg:right-20 text-primary2 font-bold">
           $12,500
         </h3>

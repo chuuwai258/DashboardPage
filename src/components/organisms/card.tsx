@@ -65,7 +65,7 @@ const MyCard = () => {
           </div>
           {/* Second Card */}
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
-            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-65 text-primary2 font-semibold">
+            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-6 text-primary2 font-semibold">
               See All
             </h2>
             <Card className="  md:h-64 lg:h-65">
