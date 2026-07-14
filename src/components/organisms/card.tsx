@@ -14,7 +14,7 @@ const MyCard = () => {
     <>
       <div className="flex flex-col md:flex-row lg:flex-row gap-4 overflow-x-auto px-7 py-4 lg:gap-20 md:gap-4 lg:px-15 ">
         {/* First Card */}
-        <div className="flex gap-10 md:gap-4 lg:gap-13">
+        <div className="flex gap-10 md:gap-4 lg:gap-15">
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
             <h2 className="text-xl mb-5 text-primary2 font-semibold">
               My Cards
@@ -36,7 +36,7 @@ const MyCard = () => {
                 </div>
               </CardHeader>
 
-              <CardContent className='py-6'>
+              <CardContent className='h-22'>
                 <div className="flex md:gap-8 lg:gap-15">
                   <div>
                     <h1 className="uppercase text-white/70 md:text-base lg:text-lg">
@@ -54,7 +54,7 @@ const MyCard = () => {
               </CardContent>
 
               <CardFooter className=" flex md:h-13 lg:h-16 items-center justify-between border-t md:pb-8">
-                <h1 className="md:text-lg lg:text-xl">3778 **** **** 1234</h1>
+                <h1 className="md:text-lg lg:text-2xl">3778 **** **** 1234</h1>
                 <img
                   src={Image.cardImg4}
                   alt="cardImg2"
@@ -85,7 +85,7 @@ const MyCard = () => {
                 </div>
               </CardHeader>
 
-              <CardContent  className='py-6'>
+              <CardContent  className='h-22'>
                 <div className="flex md:gap-10 lg:gap-15">
                   <div>
                     <CardDescription className="uppercase md:text-base lg:text-lg">
@@ -103,7 +103,7 @@ const MyCard = () => {
               </CardContent>
 
               <CardFooter className=" flex md:h-13 lg:h-16 items-center justify-between border-t md:pb-8">
-                <h1 className="md:text-lg lg:text-xl">3778 **** **** 1234</h1>
+                <h1 className="md:text-lg lg:text-2xl">3778 **** **** 1234</h1>
                 <img
                   src={Image.cardImg4}
                   alt="cardImg2"
