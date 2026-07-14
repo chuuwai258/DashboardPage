@@ -11,16 +11,16 @@ import ChartBarDefault from '../molecules/transaction-barchart'
 const TransactionCard = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row  lg:flex-row gap-4 overflow-x-auto md:overflow-visible px-7 py-4  md:gap-7 lg:px-15 ">
+      <div className="flex flex-col md:flex-row  lg:flex-row gap-4 overflow-x-auto md:overflow-visible px-7 py-4  lg:gap-9 md:gap-7 lg:px-15 ">
         
 
         {/* First Card */}
-        <div className="flex gap-10 md:gap-5 lg:gap-17 md:w-[75%]">
+        <div className="flex gap-10 md:gap-5 lg:gap-9 md:w-[75%]">
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
             <h2 className="text-xl mb-5 text-primary2 font-semibold">
               My Cards
             </h2>
-            <Card className="bg-[#0A06F4] text-white md:h-64">
+            <Card className="bg-[#0A06F4] text-white md:h-64 lg:h-65">
               <CardHeader className="flex justify-between md:h-12">
                 <div>
                   <h1 className="md:text-base lg:text-lg text-white/70">
@@ -66,10 +66,10 @@ const TransactionCard = () => {
           </div>
           {/* Second Card */}
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
-            <h2 className="text-lg mb-5 ml-50 md:ml-30 lg:ml-70 text-primary2 font-semibold">
+            <h2 className="text-lg mb-5 ml-50 md:ml-30 lg:ml-47 text-primary2 font-semibold">
               +Add Card
             </h2>
-            <Card className="md:h-64">
+            <Card className="md:h-64 lg:h-65">
               <CardHeader className="flex justify-between">
                 <div>
                   <CardDescription className="md:text-base lg:text-lg">
@@ -116,7 +116,7 @@ const TransactionCard = () => {
         </div>
         <div>
           {/* Card Transaction */}
-        <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0 ">
+        <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0 lg:min-w-[40px]">
           <h2 className="text-[18px] mb-5 text-primary2 font-semibold">
             My Expense
           </h2>
