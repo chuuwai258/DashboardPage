@@ -12,7 +12,7 @@ const TransactionCard = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row lg:flex-row gap-4 overflow-x-hidden px-7 py-4 lg:gap-8 lg:mx-5  md:gap-4">
-        it
+       
         {/* First Card */}
         <div className="flex gap-10 md:gap-4 lg:gap-6">
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
@@ -65,7 +65,7 @@ const TransactionCard = () => {
           </div>
           {/* Second Card */}
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
-            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-55 text-primary2 font-semibold">
+            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-45 text-primary2 font-semibold">
               +Add Card
             </h2>
             <Card className="  md:h-64 lg:h-65">
