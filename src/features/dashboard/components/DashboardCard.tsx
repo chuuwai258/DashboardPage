@@ -19,7 +19,7 @@ const DashboardCard = () => {
             <h2 className="text-xl mb-5 text-primary2 font-semibold">
               My Cards
             </h2>
-            <Card className="bg-[#0A06F4] text-white h-60 md:h-64 lg:h-65 lg:w-full">
+            <Card className="bg-[#0A06F4] text-white h-60 md:h-64 lg:h-60 lg:w-full">
               <CardHeader className="flex justify-between md:h-12">
                 <div>
                   <h1 className="md:text-base lg:text-lg text-white/70">
@@ -69,10 +69,10 @@ const DashboardCard = () => {
             <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-60 text-primary2 font-semibold">
               See All
             </h2>
-            <Card className="h-60  md:h-64 lg:h-65">
-              <CardHeader className="flex justify-between">
+            <Card className="h-60  md:h-64 lg:h-60">
+               <CardHeader className="flex justify-between md:h-12">
                 <div>
-                  <CardDescription className="md:text-base lg:text-lg">
+                  <CardDescription className="md:text-base lg:text-lg ">
                     Balance
                   </CardDescription>
                   <p className="md:text-lg lg:text-xl">$5,756</p>
@@ -80,22 +80,22 @@ const DashboardCard = () => {
                 <div>
                   <img
                     src={Image.cardImg3}
-                    alt="cardImg1"
-                    className="md:size-8 lg:size-10 "
+                    alt="cardImg3"
+                    className="md:size-8 lg:size-10"
                   />
                 </div>
               </CardHeader>
 
               <CardContent className="h-22">
-                <div className="flex md:gap-10 lg:gap-15">
+                <div className="flex md:gap-8 lg:gap-10">
                   <div>
-                    <CardDescription className="uppercase md:text-base lg:text-lg">
+                    <CardDescription className="uppercase  md:text-base lg:text-lg">
                       Card Holder
                     </CardDescription>
                     <p className="md:text-lg lg:text-xl">Eddy Cusnama</p>
                   </div>
                   <div>
-                    <CardDescription className="uppercase md:text-base lg:text-lg">
+                    <CardDescription className="uppercase md:text-base lg:text-lg ">
                       Valid Thru
                     </CardDescription>
                     <p className="md:text-lg lg:text-xl">12/22</p>
@@ -120,7 +120,7 @@ const DashboardCard = () => {
             <h2 className="text-[18px] mb-5 text-primary2 font-semibold">
               Recent Transaction
             </h2>
-            <Card className="md:py-7 lg:py-7 h-60 md:h-65 lg:h-65">
+            <Card className="md:py-7 lg:py-3 h-60 md:h-65 lg:h-60">
               <CardHeader className="flex  justify-between md:gap-4  items-center">
                 <div>
                   <img

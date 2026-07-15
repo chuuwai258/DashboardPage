@@ -18,7 +18,7 @@ const TransactionCard = () => {
             <h2 className="text-xl mb-5 text-primary2 font-semibold">
               My Cards
             </h2>
-            <Card className="bg-[#0A06F4] text-white h-60 md:h-64 lg:h-65 lg:w-full">
+            <Card className="bg-[#0A06F4] text-white h-60 md:h-64 lg:h-60 lg:w-full">
               <CardHeader className="flex justify-between md:h-12">
                 <div>
                   <h1 className="md:text-base lg:text-lg text-white/70">
@@ -65,10 +65,10 @@ const TransactionCard = () => {
 
           {/* Second Card */}
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-[250px] lg:min-w-[300px]">
-            <h2 className="text-lg mb-5 ml-50 md:ml-25 lg:ml-50 text-primary2 font-semibold">
+            <h2 className="text-lg mb-5 ml-50 md:ml-35 lg:ml-55 text-primary2 font-semibold">
               + Add Card
             </h2>
-            <Card className="h-60  md:h-64 lg:h-65 ">
+            <Card className="h-60  md:h-64 lg:h-60 ">
               <CardHeader className="flex justify-between md:h-12">
                 <div>
                   <CardDescription className="md:text-base lg:text-lg ">

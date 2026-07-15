@@ -55,27 +55,25 @@ export default function DataTable<TData, TValue>({
   return (
     <>
       <div className="flex flex-col lg:flex-row items-center justify-between py-4 ">
-        <Tabs defaultValue="outline" >
-          <TabsList className="bg-primary1  flex gap-9 lg:gap-14 bg-transparent">
+        <Tabs defaultValue="outline">
+          <TabsList className="bg-primary1  flex gap-9 lg:gap-14">
             <TabsTrigger
               value="all"
-              className="text-lg rounded-none border-x-0 border-t-0 border-b-2 border-transparent  data-[state=active]:border-primary5 data-[state=active]:text-primary5 data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+              className="text-lg rounded-none border-x-0 border-t-0 border-b-4 data-[state=active]:border-primary5 data-[state=active]:text-primary5 "
             >
               All Transaction
             </TabsTrigger>
             <TabsTrigger
               value="income"
-              className="text-lg rounded-none border-x-0 border-t-0 border-b-2 border-transparent data-[state=active]:border-primary5 data-[state=active]:text-primary5 data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+              className="text-lg rounded-none border-x-0 border-t-0 border-b-4 data-[state=active]:border-primary5 data-[state=active]:text-primary5 "
             >
-              
               Income
             </TabsTrigger>
 
             <TabsTrigger
               value="expense"
-              className="text-lg rounded-none border-x-0 border-t-0 border-b-2 border-transparent data-[state=active]:border-primary5 data-[state=active]:text-primary5 data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+              className="text-lg rounded-none border-x-0 border-t-0 border-b-4 data-[state=active]:border-primary5 data-[state=active]:text-primary5 "
             >
-              
               Expense
             </TabsTrigger>
           </TabsList>
@@ -105,7 +103,7 @@ export default function DataTable<TData, TValue>({
               </TableRow>
             ))}
           </TableHeader>
-          <TableBody className="text-lg ">
+          <TableBody className="text-base ">
             {table.getRowModel().rows?.length ? (
               table.getRowModel().rows.map((row) => (
                 <TableRow

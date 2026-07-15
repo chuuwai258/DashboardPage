@@ -44,7 +44,7 @@ export default function ChartBarMultiple() {
         </div>
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig} className="w-full md:h-63 lg:h-70">
+        <ChartContainer config={chartConfig} className="w-full md:h-50 lg:h-65">
           <BarChart accessibilityLayer data={chartData} barSize={15}>
             <CartesianGrid vertical={false} />
             <XAxis

@@ -13,13 +13,13 @@ const Dashboard = () => {
 
         {/* chart */}
         <div className="flex flex-col md:flex-row lg:flex-row md:gap-7 lg:gap-10  px-7 md:px-10 lg:px-15 py-5">
-          <div className="md:w-[50%] w-full lg:w-[70%] ">
+          <div className="md:w-[70%] w-full lg:w-[80%] ">
             <h1 className="text-xl pb-5 text-primary2 font-semibold">
               Weekly Activity
             </h1>
             <ChartBarMultiple />
           </div>
-          <div className="md:w-[50%] lg:w-[30%]">
+          <div className="md:w-[40%] lg:w-[40%]">
             <h1 className="text-xl pb-5 text-primary2 font-semibold">
               Expense Statistics
             </h1>

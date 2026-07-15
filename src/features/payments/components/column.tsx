@@ -219,7 +219,7 @@ export const data: Payment[] = [
 export const columns: ColumnDef<Payment>[] = [
   {
     accessorKey: 'description',
-    header: () => <Button variant="ghost">Description</Button>,
+    header: 'Description'
   },
 
   {

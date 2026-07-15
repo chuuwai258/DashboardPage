@@ -27,12 +27,12 @@ const chartConfig = {
 } satisfies ChartConfig
 export default function ChartBarDefault() {
   return (
-    <Card className="relative h-60 md:w-[95%] lg:w-[95%] md:h-63 lg:h-65">
+    <Card className="relative h-60 md:w-[95%] lg:w-[98%] md:h-63 lg:h-60">
       <h3 className="absolute top-9 right-14 lg:top-10 lg:right-20 text-primary2 font-bold">
           $12,500
         </h3>
       
-      <CardContent className="h-56">
+      <CardContent className="h-52">
         <ChartContainer config={chartConfig} className="h-full w-full">
           <BarChart accessibilityLayer data={chartData} barSize={27}>
             <CartesianGrid vertical={false} />

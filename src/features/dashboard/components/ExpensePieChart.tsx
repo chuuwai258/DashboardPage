@@ -38,11 +38,11 @@ const chartConfig = {
 } satisfies ChartConfig
 export default function ChartPieLabelList() {
   return (
-    <Card className="flex flex-col">
+    <Card className="flex  ">
       <CardContent className="flex-1">
         <ChartContainer
           config={chartConfig}
-          className="mx-auto aspect-square md:h-[300px]  lg:h-[330px] [&_.recharts-text]:fill-background"
+          className="mx-auto aspect-square md:h-[250px]  lg:h-[310px] [&_.recharts-text]:fill-background"
         >
           <PieChart>
             <ChartTooltip
