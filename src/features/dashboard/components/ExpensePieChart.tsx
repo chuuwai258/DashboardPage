@@ -1,13 +1,6 @@
 // "use client"
 import { LabelList, Pie, PieChart } from 'recharts'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/atoms/card'
+import { Card, CardContent } from '@/components/atoms/card'
 import {
   ChartContainer,
   ChartTooltip,
@@ -69,7 +62,6 @@ export default function ChartPieLabelList() {
           </PieChart>
         </ChartContainer>
       </CardContent>
-      
     </Card>
   )
 }

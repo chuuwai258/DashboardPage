@@ -18,7 +18,7 @@ import {
 import React from 'react'
 
 import { Tabs, TabsList, TabsTrigger } from '#/components/atoms/tabs'
-import DataTablePagination from './data-table-pagination'
+import DataTablePagination from './DataTablePagination'
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
@@ -67,7 +67,7 @@ export default function DataTable<TData, TValue>({
               value="income"
               className="text-lg rounded-none border-x-0 border-t-0 border-b-2 border-transparent data-[state=active]:border-primary5 data-[state=active]:text-primary5 data-[state=active]:bg-transparent data-[state=active]:shadow-none"
             >
-              {' '}
+              
               Income
             </TabsTrigger>
 
@@ -75,7 +75,7 @@ export default function DataTable<TData, TValue>({
               value="expense"
               className="text-lg rounded-none border-x-0 border-t-0 border-b-2 border-transparent data-[state=active]:border-primary5 data-[state=active]:text-primary5 data-[state=active]:bg-transparent data-[state=active]:shadow-none"
             >
-              {' '}
+              
               Expense
             </TabsTrigger>
           </TabsList>

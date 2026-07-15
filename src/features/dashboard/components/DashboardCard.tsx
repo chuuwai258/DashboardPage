@@ -6,10 +6,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '../atoms/card'
+} from '../../../components/atoms/card'
 import '#/styles.css'
 import Image from '#/lib/costant/images'
-const MyCard = () => {
+const DashboardCard = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row lg:flex-row gap-4 overflow-x-auto px-7 py-4 lg:gap-17 md:gap-4 lg:px-15 ">
@@ -36,7 +36,7 @@ const MyCard = () => {
                 </div>
               </CardHeader>
 
-              <CardContent className='h-22'>
+              <CardContent className="h-22">
                 <div className="flex md:gap-8 lg:gap-10">
                   <div>
                     <h1 className="uppercase text-white/70 md:text-base lg:text-lg">
@@ -63,9 +63,10 @@ const MyCard = () => {
               </CardFooter>
             </Card>
           </div>
+
           {/* Second Card */}
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
-            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-6 text-primary2 font-semibold">
+            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-70 text-primary2 font-semibold">
               See All
             </h2>
             <Card className="h-60  md:h-64 lg:h-65">
@@ -85,7 +86,7 @@ const MyCard = () => {
                 </div>
               </CardHeader>
 
-              <CardContent  className='h-22'>
+              <CardContent className="h-22">
                 <div className="flex md:gap-10 lg:gap-15">
                   <div>
                     <CardDescription className="uppercase md:text-base lg:text-lg">
@@ -181,4 +182,4 @@ const MyCard = () => {
   )
 }
 
-export default MyCard
+export default DashboardCard

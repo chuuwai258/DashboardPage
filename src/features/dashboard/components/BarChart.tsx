@@ -1,13 +1,5 @@
-import { TrendingUp } from 'lucide-react'
 import { Bar, BarChart, CartesianGrid, XAxis } from 'recharts'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/atoms/card'
+import { Card, CardContent, CardHeader } from '@/components/atoms/card'
 import {
   ChartContainer,
   ChartTooltip,
@@ -22,8 +14,7 @@ const chartData = [
   { month: 'Tuesday', deposit: 340, widthdraw: 240 },
   { month: 'Wednesday', deposit: 150, widthdraw: 150 },
   { month: 'Thusday', deposit: 280, widthdraw: 170 },
-    { month: 'Friday', deposit: 250, widthdraw: 140 },
-
+  { month: 'Friday', deposit: 250, widthdraw: 140 },
 ]
 const chartConfig = {
   deposit: {
@@ -72,7 +63,6 @@ export default function ChartBarMultiple() {
           </BarChart>
         </ChartContainer>
       </CardContent>
-      
     </Card>
   )
 }

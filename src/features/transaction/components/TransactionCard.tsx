@@ -4,10 +4,10 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-} from '../atoms/card'
+} from '../../../components/atoms/card'
 import '#/styles.css'
 import Image from '#/lib/costant/images'
-import ChartBarDefault from '../molecules/transaction-barchart'
+import ChartBarDefault from './TransactionBarChart'
 const TransactionCard = () => {
   return (
     <>
@@ -62,6 +62,7 @@ const TransactionCard = () => {
               </CardFooter>
             </Card>
           </div>
+
           {/* Second Card */}
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-[250px] lg:min-w-[300px]">
             <h2 className="text-lg mb-5 ml-50 md:ml-25 lg:ml-50 text-primary2 font-semibold">
@@ -112,6 +113,7 @@ const TransactionCard = () => {
             </Card>
           </div>
         </div>
+
         {/* Card Transaction */}
         <div className="min-w-[300px] sm:min-w-[340px] md:min-w-[200px] lg:min-w-[300px]">
           <h2 className="text-[18px] mb-5 text-primary2 font-semibold">

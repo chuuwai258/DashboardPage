@@ -1,5 +1,5 @@
-import DataTable from '#/components/organisms/data-table'
-import TransactionCard from '#/components/organisms/transactionCard'
+import DataTable from '#/components/organisms/DataTable'
+import TransactionCard from '#/features/transaction/components/TransactionCard'
 import { columns, data } from '../payments/components/column'
 
 const Transaction = () => {

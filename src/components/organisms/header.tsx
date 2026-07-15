@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center h-[95px] lg:h-[85px]  md:mx-10 lg:mx-15  ">
         <div className="flex items-center gap-5">
-          <SidebarTrigger className='sm:hidden'/>
+          <SidebarTrigger className="sm:hidden" />
 
           <h1 className="text-primary2 text-[25px] text-primary2 font-semibold">
             Document

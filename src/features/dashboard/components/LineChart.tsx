@@ -57,7 +57,7 @@ export default function ChartLineDefault() {
               />
             </LineChart>
           </ChartContainer>
-        </CardContent>        
+        </CardContent>
       </Card>
     </>
   )

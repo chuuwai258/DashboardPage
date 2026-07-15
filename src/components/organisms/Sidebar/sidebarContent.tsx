@@ -7,7 +7,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from '../../components/atoms/sidebar'
+} from '../../atoms/sidebar'
 import {
   BadgeDollarSign,
   BanknoteArrowUpIcon,
@@ -39,32 +39,33 @@ const AppSidebarContent = () => {
           <SidebarGroupAction></SidebarGroupAction>
           <SidebarGroupContent>
             <SidebarMenu className=" mt-3 md:space-y-8 lg:space-y-5  ">
-              
-  {dashboardItems.map((item) => (
-    <SidebarMenuItem key={item.name}>
-      <SidebarMenuButton className="m-0 bg-none hover:bg-transparent">
-        <Link
-          to={item.url}
-          className="text-foreground flex items-center gap-4 text-[16px] relative w-full"
-          activeProps={{
-            className: 'text-primary5 font-bold ',
-          }}
-        >
-          {({ isActive }) => (
-            <>
-              {isActive && (
-                <div className="absolute -left-2 top-0 bottom-0 w-[5px] h-[25px] bg-primary5 rounded-md " />
-              )}
+              {dashboardItems.map((item) => (
+                <SidebarMenuItem key={item.name}>
+                  <SidebarMenuButton className="m-0 bg-none hover:bg-transparent">
+                    <Link
+                      to={item.url}
+                      className="text-foreground flex items-center gap-4 text-[16px] relative w-full"
+                      activeProps={{
+                        className: 'text-primary5 font-bold ',
+                      }}
+                    >
+                      {({ isActive }) => (
+                        <>
+                          {isActive && (
+                            <div className="absolute -left-2 top-0 bottom-0 w-[5px] h-[25px] bg-primary5 rounded-md " />
+                          )}
 
-              <item.icon size={20} />
-              <span className='md:text-2xl lg:text-xl '>{item.name}</span>
-            </>
-          )}
-        </Link>
-      </SidebarMenuButton>
-    </SidebarMenuItem>
-  ))}
-</SidebarMenu>
+                          <item.icon size={20} />
+                          <span className="md:text-2xl lg:text-xl ">
+                            {item.name}
+                          </span>
+                        </>
+                      )}
+                    </Link>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
