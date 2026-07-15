@@ -66,7 +66,7 @@ const DashboardCard = () => {
 
           {/* Second Card */}
           <div className="min-w-[300px] sm:min-w-[340px] md:min-w-0">
-            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-70 text-primary2 font-semibold">
+            <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-60 text-primary2 font-semibold">
               See All
             </h2>
             <Card className="h-60  md:h-64 lg:h-65">
