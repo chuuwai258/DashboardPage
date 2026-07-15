@@ -19,7 +19,7 @@ const MyCard = () => {
             <h2 className="text-xl mb-5 text-primary2 font-semibold">
               My Cards
             </h2>
-            <Card className="bg-[#0A06F4] text-white md:h-64 lg:h-65 lg:w-full">
+            <Card className="bg-[#0A06F4] text-white h-60 md:h-64 lg:h-65 lg:w-full">
               <CardHeader className="flex justify-between md:h-12">
                 <div>
                   <h1 className="md:text-base lg:text-lg text-white/70">
@@ -68,7 +68,7 @@ const MyCard = () => {
             <h2 className="text-lg mb-5 ml-50 md:ml-40 lg:ml-6 text-primary2 font-semibold">
               See All
             </h2>
-            <Card className="  md:h-64 lg:h-65">
+            <Card className="h-60  md:h-64 lg:h-65">
               <CardHeader className="flex justify-between">
                 <div>
                   <CardDescription className="md:text-base lg:text-lg">
